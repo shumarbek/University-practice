@@ -1,4 +1,6 @@
+//----------------------------------------------------------------------------------------
 // nuqtaning OX va OY o'qlaridagi kordinatari orqali uning joylashgan choragini aniqlash.
+//----------------------------------------------------------------------------------------
 
 #include <iostream>
 using namespace std;

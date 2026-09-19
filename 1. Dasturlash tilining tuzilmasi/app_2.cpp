@@ -1,4 +1,6 @@
+//--------------------------------------------------------------------------
 // Oy'ning tartib raqamiga ko'ra uning qaysi faslga tegisliligini aniqlash
+//--------------------------------------------------------------------------
 
 #include <iostream>
 using namespace std;
