@@ -15,14 +15,13 @@ int main() {
     cin >> b;
     cout << "c=";
     cin >> c;
-
     cout << "Yakuniy tahlil:\n";
 
     if (((a + b) > c) && ((a + c) > b) && ((b + c) > a)) {
         cout << "1.Tomoniga ko'ra: ";
         if (a == b && a == c) {
             cout << "Teng tomonli";
-        } else if (a == b || b == c || a== c) {
+        } else if (a == b || b == c || a == c) {
             cout << "Teng yonli";
         } else{
             cout << "Turli tomonli";

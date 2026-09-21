@@ -7,10 +7,14 @@ using namespace std;
 
 int main() {
     int x, y;
+
+    cout << "Koordinatalarni kiriting:\n";
     cout << "x=";
     cin >> x;
     cout << "y=";
     cin >> y;
+    cout << "Nuqta ";
+
     if (x > 0) {
         if (y > 0) {
             cout << "I-chorak";
@@ -24,6 +28,8 @@ int main() {
             cout << "III-chorak";
         }
     }
+
+    cout << "da joylashgan!";
 
     return 0;
 }
