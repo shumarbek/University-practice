@@ -20,19 +20,19 @@ int main() {
 
         if (TMI < 18.5) {
             result = "Kam vazn";
-        } else if (18.5 <= TMI < 25) {
+        } else if (18.5 <= TMI && TMI < 25) {
             result = "Me'yoriy vazn";
-        } else if (25 <= TMI < 30) {
+        } else if (25 <= TMI && TMI < 30) {
             result = "Ortiqcha vazn";
-        } else if (30 <= TMI < 35) {
+        } else if (30 <= TMI && TMI < 35) {
             result = "Semizlik, 1-daraja";
-        } else if (35 <= TMI < 40) {
+        } else if (35 <= TMI && TMI < 40) {
             result = "Semizlik, 2-daraja";
         } else {
             result = "Semizlik, 3-daraja";
         }
 
-        cout << "\n\n===== TMI hisoboti =====" << "\n- vazn: " << m << "kg" << "\n- bo'y: " << h/100 << "m"<< "\n- TMI: " << TMI << "\n- Holat: " << result << "\n========================";
+        cout << "\n===== TMI hisoboti =====" << "\n- vazn: " << m << "kg" << "\n- bo'y: " << h/100 << "m"<< "\n- TMI: " << TMI << "\n- Holat: " << result << "\n========================";
     }
 
     return 0;

@@ -42,15 +42,15 @@ int main() {
 
     x = (a + b + c) / 3;
 
-    if (90 <= x <= 100) {
+    if (90 <= x && x <= 100) {
         result = "A'lo";
-    } else if (80 <= x < 90) {
+    } else if (80 <= x && x < 90) {
         result = "Yaxshi";
-    } else if (70 <= x < 80) {
+    } else if (70 <= x && x < 80) {
         result = "Qoniqarli";
-    } else if (60 <= x < 70) {
+    } else if (60 <= x && x < 70) {
         result = "O'tgan";
-    } else if (0 <= x < 60) {
+    } else if (0 <= x && x < 60) {
         result = "Yiqilgan";
     }
 

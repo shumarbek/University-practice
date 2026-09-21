@@ -15,18 +15,24 @@ int main() {
     cin >> y;
     cout << "Nuqta ";
 
-    if (x > 0) {
-        if (y > 0) {
-            cout << "I-chorak";
+    if (x != 0 && y != 0) {
+        if (x > 0) {
+            if (y > 0) {
+                cout << "I-chorak";
+            } else {
+                cout << "IV-chorak";
+            }
         } else {
-            cout << "IV-chorak";
+            if (y > 0) {
+                cout << "II-chorak";
+            } else {
+                cout << "III-chorak";
+            }
         }
+    } else if (x != 0 || y != 0) {
+        cout << "koordinata o'qi";
     } else {
-        if (y > 0) {
-            cout << "II-chorak";
-        } else {
-            cout << "III-chorak";
-        }
+        cout << "koordinata markazi";
     }
 
     cout << "da joylashgan!";
