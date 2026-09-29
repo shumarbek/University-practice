@@ -5,13 +5,13 @@ using namespace std;
 int main() {
     double a=6, b=4, alpha=M_PI/4, c, P, R, S, r, beta, gamma;
     
-    beta = asin((b * sin(alpha)) / a);
-    gamma = M_PI - (alpha + beta);
-    c = (a * sin(gamma)) / sin(alpha);
+    c = sqrt(pow(a, 2) + pow(b, 2) - 2*a*b*cos(alpha));
     P = a + b + c;
-    S = 1/2 * a * b * sin(alpha);
     R = a / (2 * sin(alpha));
+    S = 0.5 * a * b * sin(alpha);
     r = 2*S / P;
+    beta = asin((b*sin(alpha)) / a);
+    gamma = M_PI - (alpha + beta);
 
     cout << "3-tomon(c): " << c;
     cout << "\nPerimetr(P): " << P;
