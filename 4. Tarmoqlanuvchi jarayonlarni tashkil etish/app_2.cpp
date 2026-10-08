@@ -6,10 +6,10 @@ int main() {
     cout << "a, b, amal: ";
     cin >> a >> b >> amal;
 
-    switch (amal) {
-        case + : natija = a+b;
-        break;
-    }
+    // switch (amal) {
+    //     case + : natija = a+b;
+    //     break;
+    // }
 
     return 0;
 }
